@@ -2,7 +2,7 @@
 include_once 'APIModel.php';
 class API extends APIModel{
 
-    function nuevaCompra($compra){return $this->nuevaCompras($compra);}
+    function nuevaCompra($new_compra){return $this->nuevaCompras($new_compra);}
 
     function getCompras($user){ return $this->getAllCompras($user);}
     
